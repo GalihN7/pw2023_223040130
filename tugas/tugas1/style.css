@@ -1,0 +1,59 @@
+.rectangle {
+    width:150px;
+    height:150px;
+    background:rgb(255, 0, 0);
+}
+.rectangle2 {
+    width:150px;
+    height:150px;
+    background:hsl(234, 100%, 50%);
+}
+.rectangle3 {
+    float:inherit;
+    width:150px;
+    height:150px;
+    background:hsl(234, 100%, 50%);
+}
+.rectangle4 {
+    float:inherit;
+    width:150px;
+    height:150px;
+    background:hsl(61, 100%, 50%);
+}
+.rectangle5 {
+    float:inherit;
+    width:150px;
+    height:150px;
+    background:hsl(61, 100%, 50%);
+}
+.rectangle6 {
+    float:inherit;
+    width:150px;
+    height:150px;
+    background:hsl(61, 100%, 50%);
+}
+
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    }
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
