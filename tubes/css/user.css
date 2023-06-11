@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  background: url("../img/batik.jpg");
+}
+
+.navbar a {
+  color: #fbb11a;
+}
+.icon h5 {
+  color: #fbb11a;
+}
+
+.nav-link:hover {
+  background-color: #333333;
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+.col-md-2 {
+  margin-top: 100px;
+  padding-left: 20px;
+}
+
+.col-md-10 a {
+  text-decoration: none;
+}
+
+.col-md-10 h3 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #fbb11a;
+}
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 20px;
+  right: 4px;
+  opacity: 1;
+  font-size: 10px;
+}
+
+.container-fluid .navbar-brand {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.row .edit {
+  margin-right: 0px;
+}
