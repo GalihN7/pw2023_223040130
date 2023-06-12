@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  background: url("../img/batik.jpg");
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a1a;
+}
+
+.login-form {
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  background-color: #000000 !important;
+  border-radius: 10px !important;
+  color: #fbb11a !important;
+}
+
+.card-title {
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.btn {
+  background: #fbb11a !important;
+  color: #000000 !important;
+  transform: translateY(10px);
+  font-size: 14px !important;
+  border-radius: 10px !important;
+}
+
+.signin {
+  width: 100%;
+  height: 35px;
+  background-color: #50eaf5 !important;
+  color: #1a1a1a;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.signup {
+  width: 100%;
+  height: 35px;
+  background: #fcad0e;
+  border: 1px solid #bcbcbc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+}
+
+.register {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #737373;
+}
+
+.register-a {
+  font-weight: 900px;
+  color: #fbb11a;
+}
+
+.dropdown {
+  color: #fbb11a;
+}
